@@ -7,7 +7,13 @@ Playing around with [OpenAI's funnybot idea](https://github.com/openai/requests-
 
 Character-level language model created by [sherjilozair](https://github.com/sherjilozair/char-rnn-tensorflow).
 
-Jokes are of variable sequence length. In the input file I'm adding padding so that all of the jokes are the same length (1000 characters), and I use the seq_length argument to indicate this length. I guess when I sample for characters I'll have to say I want this number of characters as well... 
+Jokes are of variable sequence length, and I filtered out jokes that were too long and added space padding to those that were too short. 
+
+To train in char-rnn-tensorflow directory:
+
+```bash 
+python train.py --data_dir=./data/jokes/ trainseq_length=1000
+```
 
 Perhaps lucy should read [this](https://github.com/karpathy/char-rnn/issues/47) closely...
 
@@ -25,6 +31,12 @@ wget https://raw.githubusercontent.com/amoudgl/short-jokes-dataset/master/shortj
 ```
 
 Many of these jokes are pretty offensive, imo. :(
+
+Then aggregate them into `char-rnn-tensorflow/data/jokes/input.txt`:
+
+```bash
+python prep_jokes.py
+```
 
 ## TODO
 
