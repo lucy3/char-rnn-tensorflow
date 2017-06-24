@@ -7,6 +7,10 @@ Playing around with [OpenAI's funnybot idea](https://github.com/openai/requests-
 
 Character-level language model created by [sherjilozair](https://github.com/sherjilozair/char-rnn-tensorflow).
 
+Jokes are of variable sequence length. In the input file I'm adding padding so that all of the jokes are the same length, and I use the seq_length argument to indicate this length. I guess when I sample for characters I'll have to say I want this number of characters as well... 
+
+Perhaps lucy should read [this](https://github.com/karpathy/char-rnn/issues/47) closely...
+
 ## Dataset 
 
 Uses this [joke dataset](https://github.com/taivop/joke-dataset). 
