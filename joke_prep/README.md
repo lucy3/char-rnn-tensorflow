@@ -1,21 +1,7 @@
 Joke Generator
 ===
 
-Playing around with [OpenAI's funnybot idea](https://github.com/openai/requests-for-research/blob/master/_requests_for_research/funnybot.html). 
-
-## RNN
-
-Character-level language model created by [sherjilozair](https://github.com/sherjilozair/char-rnn-tensorflow).
-
-Jokes are of variable sequence length, and I filtered out jokes that were too long and added space padding to those that were too short. 
-
-To train in char-rnn-tensorflow directory:
-
-```bash 
-python train.py --data_dir=./data/jokes/ trainseq_length=1000
-```
-
-Perhaps lucy should read [this](https://github.com/karpathy/char-rnn/issues/47) closely...
+Playing around with [OpenAI's funnybot idea](https://github.com/openai/requests-for-research/blob/master/_requests_for_research/funnybot.html). So far this is really simple: get data, train on premade character-level language model, and sample.
 
 ## Dataset 
 
@@ -37,6 +23,20 @@ Then aggregate them into `char-rnn-tensorflow/data/jokes/input.txt`:
 ```bash
 python prep_jokes.py
 ```
+
+## RNN
+
+Character-level language model created by [sherjilozair](https://github.com/sherjilozair/char-rnn-tensorflow).
+
+Jokes are of variable sequence length, and I filtered out jokes that were too long and added space padding to those that were too short. 
+
+To train in char-rnn-tensorflow directory:
+
+```bash 
+python train.py --data_dir=./data/jokes/ trainseq_length=1000
+```
+
+Perhaps lucy should read [this](https://github.com/karpathy/char-rnn/issues/47) closely...
 
 ## Results
 
