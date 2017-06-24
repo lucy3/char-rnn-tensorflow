@@ -7,19 +7,20 @@ Playing around with [OpenAI's funnybot idea](https://github.com/openai/requests-
 
 Character-level language model created by [sherjilozair](https://github.com/sherjilozair/char-rnn-tensorflow).
 
-Jokes are of variable sequence length. In the input file I'm adding padding so that all of the jokes are the same length, and I use the seq_length argument to indicate this length. I guess when I sample for characters I'll have to say I want this number of characters as well... 
+Jokes are of variable sequence length. In the input file I'm adding padding so that all of the jokes are the same length (1000 characters), and I use the seq_length argument to indicate this length. I guess when I sample for characters I'll have to say I want this number of characters as well... 
 
 Perhaps lucy should read [this](https://github.com/karpathy/char-rnn/issues/47) closely...
 
 ## Dataset 
 
-Uses this [joke dataset](https://github.com/taivop/joke-dataset). 
+Uses this [joke dataset](https://github.com/taivop/joke-dataset) and [short jokes dataset](https://github.com/amoudgl/short-jokes-dataset). There may be repeats since both datasets scrape from Reddit (e.g. /r/jokes). 
 
-Get joke jsons:
+Get joke files:
 ```bash
 wget https://raw.githubusercontent.com/taivop/joke-dataset/master/reddit_jokes.json 
 wget https://raw.githubusercontent.com/taivop/joke-dataset/master/stupidstuff.json
 wget https://raw.githubusercontent.com/taivop/joke-dataset/master/wocka.json 
+wget https://raw.githubusercontent.com/amoudgl/short-jokes-dataset/master/shortjokes.csv
 ```
 
 Many of these jokes are pretty offensive, imo. :(
