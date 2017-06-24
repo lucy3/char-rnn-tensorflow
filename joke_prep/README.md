@@ -29,3 +29,7 @@ Many of these jokes are pretty offensive, imo. :(
 ## Questions
 
 - Is there a humor neuron, similar to this [sentiment neuron](https://blog.openai.com/unsupervised-sentiment-neuron/)?
+
+## Disclaimer 
+
+I (the human) am still learning.
