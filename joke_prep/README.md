@@ -19,7 +19,7 @@ Perhaps lucy should read [this](https://github.com/karpathy/char-rnn/issues/47) 
 
 ## Dataset 
 
-Uses this [joke dataset](https://github.com/taivop/joke-dataset) and [short jokes dataset](https://github.com/amoudgl/short-jokes-dataset). There may be repeats since both datasets scrape from Reddit (e.g. /r/jokes). 
+We have this [joke dataset](https://github.com/taivop/joke-dataset) and [short jokes dataset](https://github.com/amoudgl/short-jokes-dataset). There may be repeats since both datasets scrape from Reddit (e.g. /r/jokes). I try to check for that by using a set but it may be imperfect.
 
 Get joke files:
 
