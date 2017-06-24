@@ -38,11 +38,9 @@ Then aggregate them into `char-rnn-tensorflow/data/jokes/input.txt`:
 python prep_jokes.py
 ```
 
-## TODO
+## Results
 
-[ ] Convert jsons to one input txt w/ good jokes
-
-[ ] GANs???
+TODO
 
 ## Questions
 
@@ -50,4 +48,4 @@ python prep_jokes.py
 
 ## Disclaimer 
 
-I (the human) am still learning.
+I (the human) am still learning, so much of this may be incorrect/bad.
