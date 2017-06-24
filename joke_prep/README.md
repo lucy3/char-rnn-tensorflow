@@ -1,7 +1,7 @@
 Joke Generator
 ===
 
-Playing around with [OpenAI's funnybot idea](https://github.com/openai/requests-for-research/blob/master/_requests_for_research/funnybot.html). So far this is really simple: get data, train on premade character-level language model, and sample.
+Playing around with [OpenAI's funnybot idea](https://github.com/openai/requests-for-research/blob/master/_requests_for_research/funnybot.html). So far this is really simple: get data, train on premade character-level language model, and sample. You could totally use this as a baseline for further work.
 
 ## Dataset 
 
