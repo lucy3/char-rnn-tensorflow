@@ -16,6 +16,7 @@ Perhaps lucy should read [this](https://github.com/karpathy/char-rnn/issues/47) 
 Uses this [joke dataset](https://github.com/taivop/joke-dataset) and [short jokes dataset](https://github.com/amoudgl/short-jokes-dataset). There may be repeats since both datasets scrape from Reddit (e.g. /r/jokes). 
 
 Get joke files:
+
 ```bash
 wget https://raw.githubusercontent.com/taivop/joke-dataset/master/reddit_jokes.json 
 wget https://raw.githubusercontent.com/taivop/joke-dataset/master/stupidstuff.json
