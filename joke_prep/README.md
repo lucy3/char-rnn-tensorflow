@@ -63,7 +63,7 @@ There's a lot of spaces in the output...
 
 ## Questions
 
-- Is there a humor neuron, similar to this [sentiment neuron](https://blog.openai.com/unsupervised-sentiment-neuron/)?
+- If this worked better, could there be a humor neuron, similar to this [sentiment neuron](https://blog.openai.com/unsupervised-sentiment-neuron/)?
 - How do I tune this model? (e.g. how to evaluate the quality of these outputs?)
 
 ## Disclaimer 
