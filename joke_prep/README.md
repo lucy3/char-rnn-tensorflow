@@ -44,7 +44,22 @@ Lucy was worried about running out of free Google Cloud credits so she only ran 
 
 :( 
 
-TODO
+```bash
+python sample.py -n 1000
+```
+
+Some examples: 
+
+```bash
+I got with a metric prison and quite a glass of cale band. The Frenches That's so google billions .
+we dont tunning. Jesus attack about ourmyine boxes. you do naturly.
+Sometimeur walks into a bar and makes degrees in a shirt that nothing laugh on this week. "Immediate day won't tell a man that's what afternoon. Best delive dead has tastely in the morning, they'll be hard fast!!".
+Tim coming the wrong cookies.
+I could ask you the magician came-poor the second man. What has you be having eyes just with a date potato? Me: I'm getting a 1-guy on the bubbles!
+ajm addreway gifts to mezel with a consdigiots as skirl! Can you like it by a glass crazy?
+```
+
+There's a lot of spaces in the output... 
 
 ## Questions
 
