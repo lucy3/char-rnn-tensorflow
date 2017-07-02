@@ -66,6 +66,10 @@ There's a lot of spaces in the output...
 - If this worked better, could there be a humor neuron, similar to this [sentiment neuron](https://blog.openai.com/unsupervised-sentiment-neuron/)?
 - How do I tune this model? (e.g. how to evaluate the quality of these outputs?)
 
+## TODO
+
+- Try on a certain type of joke (e.g. knock-knock jokes, your mom jokes)
+
 ## Disclaimer 
 
 I (the human) am still learning, so much of this may be incorrect/bad.
