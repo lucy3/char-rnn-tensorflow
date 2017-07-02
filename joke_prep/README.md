@@ -40,6 +40,10 @@ Perhaps lucy should read [this](https://github.com/karpathy/char-rnn/issues/47) 
 
 ## Results
 
+Lucy was worried about running out of free Google Cloud credits so she only ran the joke generator for approximately 35 epochs (170325/239800). 
+
+:( 
+
 TODO
 
 ## Questions
