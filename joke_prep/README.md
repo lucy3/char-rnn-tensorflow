@@ -40,7 +40,7 @@ Perhaps lucy should read [this](https://github.com/karpathy/char-rnn/issues/47) 
 
 ## Results
 
-Lucy was worried about running out of free Google Cloud credits so she only ran the joke generator for approximately 35 epochs (170325/239800). 
+I was worried about running out of free Google Cloud credits so I only ran the joke generator for approximately 35 epochs (170325/239800). 
 
 :( 
 
@@ -64,6 +64,7 @@ There's a lot of spaces in the output...
 ## Questions
 
 - Is there a humor neuron, similar to this [sentiment neuron](https://blog.openai.com/unsupervised-sentiment-neuron/)?
+- How do I tune this model? (e.g. how to evaluate the quality of these outputs?)
 
 ## Disclaimer 
 
